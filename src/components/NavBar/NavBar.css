@@ -1,0 +1,39 @@
+.navbar-content{
+    width: 100%;
+    background: var(--black);
+    padding: 2rem 10rem;
+    color: var(--white);
+    font-size: 40px;
+    display: flex;
+    align-content: center;
+    position: fixed;
+}
+
+.navbar-links{
+    margin-left: 120px;
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar-links li {
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+.navbar-links li:hover {
+    color: var(--gray);
+}
+
+.navbar-contact {
+    font-size: 20px;
+    display: flex; 
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.navbar-contact a:hover {
+    color: var(--gray);
+}
